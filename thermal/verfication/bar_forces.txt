@@ -1,0 +1,29 @@
+Checkout Database:
+1. -bytype byoper -order alpha, all types
+  /project/issloads/tsl/analysis/CVA/CVA_3_VV/WS4/5MIN/LOCK/p1run/bar_forces/
+2. -bytype alpha -order alpha, only CBARs
+  /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/lb/bar_forces_test/
+3. -bytype irr -order alpha, only CBARs
+  /project/issloads/tsl/analysis/CVA/CVA_3_VV/WS4/5MIN/AUTO/s0run/
+4. -bytype irr -order oper(and alpha), only CBARs
+  /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/b75_runs/s0run/bar_forces_test/
+
+8/15/2018 Checkout:
+  /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/lb/bar_forces_test/
+  - Spot checked against BARFORCES_S0ELT.TXT
+  - Spot checked by alpha as well.
+
+8/21/2018 Checkout:
+Added checkout 3.
+  - Spot checked by manually greping the f06 for various items.
+  - Only cbar forces are output here.
+ /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/lb/bar_forces_test/
+  - Spot checked against BARFORCES_S0ELT-0.TXT
+  - Only cbar forces are output here.
+ /project/issloads/tsl/analysis/CVA/CVA_3_VV/WS4/5MIN/AUTO/p1run/bar_forces/
+  - Spot checked for CBEAM FORCES and CELAS2
+
+8/22/2018 Checkout:
+ Checked 1, 2, 3, added checkout 4
+  - manually spot checked 4 against older run.
+  - Spot checked order alpha and oper.

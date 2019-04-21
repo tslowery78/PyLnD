@@ -1,0 +1,11 @@
+2/13/19- Checked the results against original fortran code here:
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/P4P5.R2/POST_PROC/PLO_MNVR/p5_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/S4S5.R2/POST_PROC/PLO_MNVR/s5_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/P6.R2/POST_PROC/PLO_MNVR/p6ls_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/S6.R2/POST_PROC/PLO_MNVR/s6ls_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/P3/PLO_MNVR/p3_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/S3/PLO_MNVR/s3_novv_mnvr_ws2_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/P1/PLO_MNVR/p1_novv_mnvr_ws4_inc_orig.tar.gz
+    /project/issloads/tsl/analysis/FlightAtt/Retro_PDAM_2019/PTCS/PDAM_NXVV.4TSL/S1/PLO_MNVR/s1_novv_mnvr_ws4_inc_orig.tar.gz
+
+    - Used PLO_conv_check to verify

@@ -1,0 +1,18 @@
+Checkout Database:
+1. -bytype alpha -order oper
+  /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/lb/p3run/trundles/trundles_py_test/
+2. -bytype irr -order alpha
+  /project/issloads/tsl/analysis/CVA/CVA_3_VV/WS4/5MIN/AUTO/p3run/
+3. -bytype oper -order alpha
+  /project/issloads/tsl/analysis/CVA/CVA_3_VV/WS4/5MIN/LOCK/p3run/
+
+
+8/16/2018
+ - Checked out initial version here:
+ /project/issloads/proj/tisl/nastran/CR13565_XVV/NOVV/lb/p3run/trundles/trundles_py_test/
+ - Initially I wasn't reading all of the 3rd celas column correctly, but I fixed that.
+
+8/22/2018
+ - Checked 1, only difference is the alpha vs the tstep header.
+ - Created check 2, manually spot checked out good.
+ - Created check 3, manually spot checked out good.
