@@ -105,6 +105,10 @@ def convert(request, **kwargs):
         mass_flow['ppm'] = response['in3/min'] * dens_resp['lbm/in3']
         mass_flow['pps'] = response['in3/sec'] * dens_resp['lbm/in3']
         mass_flow['pph'] = response['in3/hr'] * dens_resp['lbm/in3']
+        
+    # MASS #
+    if units.lower() == 'lbm' or units.lower() == 'lb':      # from lbm to ...
+        response['kg'] = value / 2.20462262
 
     # Print the response
     if verbose:
